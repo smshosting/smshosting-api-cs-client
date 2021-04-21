@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.809.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "smshosting-api-cs-client", "smshosting-api-cs-client\smshosting-api-cs-client.csproj", "{04253CD1-5D8B-4206-BD81-276D629657EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04253CD1-5D8B-4206-BD81-276D629657EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04253CD1-5D8B-4206-BD81-276D629657EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04253CD1-5D8B-4206-BD81-276D629657EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04253CD1-5D8B-4206-BD81-276D629657EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4786CEFD-F637-49EF-9829-D892DF69C770}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.StandardHeader = $2
+		$0.VersionControlPolicy = $3
+		description = smshosting client library
+		version = 1.0.0
+	EndGlobalSection
+EndGlobal
