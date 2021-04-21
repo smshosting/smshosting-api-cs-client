@@ -52,12 +52,12 @@ var res = clientSmsh.addContact("39YYYXXXXXXX", "ContactName", "ContactLastname"
 
 #### Ottieni la lista dei contatti
 ```c#
-var res = res = clientSmsh.searchContacts(null, null, null, null, null, null, null);
+var res = clientSmsh.searchContacts(null, null, null, null, null, null, null);
 ```
 
 #### Cerca contatto usando il numero di telefono
 ```c#
-var res = res = clientSmsh.searchContacts(null, "39YYYXXXXXXX", null, null, null, null, null);
+var  res = clientSmsh.searchContacts(null, "39YYYXXXXXXX", null, null, null, null, null);
 ```
 
 ## Documentazione

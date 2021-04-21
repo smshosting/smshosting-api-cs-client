@@ -42,22 +42,22 @@ smshosting.api.cs.client.SmshClient clientSmsh = new smshosting.api.cs.client.Sm
 
 #### Send a single SMS
 ```c#
-SendSmsResponse res = clientSmsh.sendSms("mySender", "39YYYXXXXXXX", null, "smsText", null, null, false, null, "AUTO");
+var res = clientSmsh.sendSms("mySender", "39YYYXXXXXXX", null, "smsText", null, null, false, null, "AUTO");
 ```
 
 #### Add a contact
 ```c#
-ContactResponse res = clientSmsh.addContact("39YYYXXXXXXX", "ContactName", "ContactLastname", "contact@email.it", null, null, null);
+var res = clientSmsh.addContact("39YYYXXXXXXX", "ContactName", "ContactLastname", "contact@email.it", null, null, null);
 ```
 
 #### Get contact list
 ```c#
-ContactSearchResponse res = res = clientSmsh.searchContacts(null, null, null, null, null, null, null);
+var res = clientSmsh.searchContacts(null, null, null, null, null, null, null);
 ```
 
 #### Search contact by phone number
 ```c#
-ContactSearchResponse res = res = clientSmsh.searchContacts(null, "39YYYXXXXXXX", null, null, null, null, null);
+var res = clientSmsh.searchContacts(null, "39YYYXXXXXXX", null, null, null, null, null);
 ```
 
 ## Documentation
