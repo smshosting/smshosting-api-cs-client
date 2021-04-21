@@ -13,8 +13,11 @@
     <PackageIcon>images\smshosting.jpg</PackageIcon>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DocumentationFile>bin\Debug\netcoreapp3.1\smshosting-api-cs-client.xml</DocumentationFile>
+  </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="RestSharp" Version="106.11.7" />
-    <None Include="images\smshosting.jpg" Pack="true" PackagePath="images"/>
+    <None Include="images\smshosting.jpg" Pack="true" PackagePath="images" />
   </ItemGroup>
 </Project>
