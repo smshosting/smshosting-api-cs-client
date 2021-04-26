@@ -9,6 +9,7 @@
 ## La piattaforma più completa per comunicare con i tuoi clienti.
 
 Questa libreria c# ti permette di integrare i nostri servizi nei tuoi progetti, aggiungendo la possibilità di inviare SMS, Email, gestire clienti e molto di più.
+La libreria è presente anche in NuGet (cercando smshosting). 
 
 ## Funzioni della libreria
 Puoi usare questa libreria per:
@@ -37,7 +38,7 @@ Non tutti i parametri sono obbligatori. Fai riferimento alla [Documentazione](ht
 
 #### Ottieni un' istanza del client
 ```c#
-smshosting.api.cs.client.SmshClient clientSmsh = new smshosting.api.cs.client.SmshClient("YOUR_API_KEY", "YOUR_SECRET_KEY")
+smshosting.api.cs.client.SmshClient clientSmsh = new smshosting.api.cs.client.SmshClient("YOUR_API_KEY", "YOUR_SECRET_KEY");
 ```
 
 #### Invia singolo SMS 

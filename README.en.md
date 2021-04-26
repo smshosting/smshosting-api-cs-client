@@ -9,6 +9,7 @@
 ## The most complete platform to improve your marketing communications.
 
 This c# library allows you to integrate our services directly into your project, adding the possibility to send SMS, Emails, manage customers and much more.
+The library is also available on NuGet (searching for smshosting). 
 
 ## Library Functions
 You can use this library to:
