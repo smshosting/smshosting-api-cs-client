@@ -61,7 +61,7 @@ var  res = clientSmsh.searchContacts(null, "39YYYXXXXXXX", null, null, null, nul
 ```
 
 ## Documentazione
-Puoi trovare la documentazione relativa alle API Smhosting [quì](https://help.smshosting.it/it/sms-rest-api)
+Puoi trovare la documentazione relativa alle API Smhosting [qui](https://help.smshosting.it/it/sms-rest-api)
 
 ## Assistenza
 Se hai bisogno di aiuto puoi contattarci scrivendo a [assistenza@smshosting.it](mailto:assistenza@smshosting.it) o visitando la [pagina di supporto](https://www.smshosting.it/it/supporto-tecnico-e-commerciale)
