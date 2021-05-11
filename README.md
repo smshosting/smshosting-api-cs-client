@@ -8,7 +8,7 @@
 
 ## La piattaforma più completa per comunicare con i tuoi clienti.
 
-Questa libreria c# ti permette di integrare i nostri servizi nei tuoi progetti, aggiungendo la possibilità di inviare SMS, Email, gestire clienti e molto di più.
+Questa libreria C# ti permette di integrare i nostri servizi nei tuoi progetti, aggiungendo la possibilità di inviare SMS, Email, gestire clienti e molto di più.
 La libreria è presente anche in NuGet (cercando smshosting). 
 
 ## Funzioni della libreria
@@ -19,13 +19,12 @@ Puoi usare questa libreria per:
 - Creare e gestire gruppi
 - Inviare Email singole
 - Inviare campagne Email
-- Controllare lo stato e il credito dell'account
-... e molto di più.
+- Controllare lo stato e il credito dell'account... e molto di più.
 
 ## Come iniziare
 
 #### Crea un account
-- Crea un account Smshosting [quì](https://cloud.smshosting.it/sms/signupInit.ic).
+- Crea un account Smshosting [qui](https://cloud.smshosting.it/sms/signupInit.ic).
 - Una volta che l'account è attivato, vai su Sviluppatori -> API REST, HTTP e SOAP per accedere alle tue credenziali per le API.
 
 #### Scarica la libreria
@@ -37,27 +36,27 @@ Puoi usare questa libreria per:
 Non tutti i parametri sono obbligatori. Fai riferimento alla [Documentazione](https://help.smshosting.it/it/sms-rest-api) per maggiori informazioni.
 
 #### Ottieni un' istanza del client
-```c#
+```C#
 smshosting.api.cs.client.SmshClient clientSmsh = new smshosting.api.cs.client.SmshClient("YOUR_API_KEY", "YOUR_SECRET_KEY");
 ```
 
 #### Invia singolo SMS 
-```c#
+```C#
 var res = clientSmsh.sendSms("mySender", "39YYYXXXXXXX", null, "smsText", null, null, false, null, "AUTO");
 ```
 
 #### Aggiungi un contatto
-```c#
+```C#
 var res = clientSmsh.addContact("39YYYXXXXXXX", "ContactName", "ContactLastname", "contact@email.it", null, null, null);
 ```
 
 #### Ottieni la lista dei contatti
-```c#
+```C#
 var res = clientSmsh.searchContacts(null, null, null, null, null, null, null);
 ```
 
 #### Cerca contatto usando il numero di telefono
-```c#
+```C#
 var  res = clientSmsh.searchContacts(null, "39YYYXXXXXXX", null, null, null, null, null);
 ```
 
